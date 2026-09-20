@@ -1,0 +1,42 @@
+# colcon / ROS 2
+build/
+install/
+log/
+**/build/
+**/install/
+**/log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+dist/
+
+# CMake and RP2040 generated outputs
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.elf
+*.bin
+*.hex
+*.map
+*.dis
+*.uf2
+!ares_led_driver/release/
+!ares_led_driver/release/*.uf2
+pico-sdk/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+*~
+*.swp
+*.swo
